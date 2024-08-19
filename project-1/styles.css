@@ -1,0 +1,52 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+* body {
+  font-family: sans-serif;
+  font-size: 35px;
+}
+
+.container {
+  border: 3px solid red;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: #fff;
+}
+
+#size {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 35px;
+  color: red;
+}
+
+/**
+*! media query!
+*! syntex: (, and) burger and pizz. burger, pizz and coca-cola.
+*? be carefull to write in a correct oder! it's a desktop first approch.
+**/
+@media (max-width: 1200px) {
+  .container {
+    background-color: #bee1e6;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    background-color: #52b788;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    background-color: #fff1e6;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    background-color: #cdb4db;
+  }
+}/*# sourceMappingURL=styles.css.map */
